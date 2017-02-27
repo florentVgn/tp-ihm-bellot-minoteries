@@ -1,1 +1,3 @@
-# tp-ihm-bellot-minoteries
+# Website for flavour shop
+
+## Project for Pratical Work in IHM
