@@ -1,0 +1,14 @@
+section
+{	border : solid 2px black;
+	margin : 15px;
+	
+}
+
+#recette
+{	float: left;
+	width : 75%;
+}
+
+aside
+{	margin-left: 78%;
+}
