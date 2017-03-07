@@ -9,6 +9,72 @@ section
 	width : 75%;
 }
 
+.imgcircle
+{	border : solid 2px #E8C811;
+	border-radius : 360px;
+	margin : 10px;
+	width : 250px;
+	
+}
+
+#commentaire
+{	margin-top:20%;
+
+}
+
 aside
 {	margin-left: 78%;
+	margin-top : 34px;
+}
+
+.menu-list {
+width:100%;
+margin-left:0 !important;}
+
+.menu-list .menu-li { 
+margin:auto;
+width : 14.28%;
+text-align:center; }
+
+.menu-list .menu-li a:hover {
+background-color:#E8C811 !important; 
+-webkit-transition: all 0.5s ease-in;
+-moz-transition: all 0.5s ease-in;
+-ms-transition: all 0.5s ease-in;
+-o-transition: all 0.5s ease-in;
+transition: all 0.5s ease-in; }
+
+.sous-menu-list { 
+width:100%;
+}
+
+.sous-menu-list li {
+text-align:center;
+padding-top: 10px;
+padding-bottom: 10px;
+color: black;
+font-size: 1.5vmin; }
+
+.tiretDuBas { 
+border-bottom: 1px solid #000;}
+
+.sous-menu-list li:hover{
+background-color:#6ECDFF !important; 
+-webkit-transition: all 0.5s ease-in;
+-moz-transition: all 0.5s ease-in;
+-ms-transition: all 0.5s ease-in;
+-o-transition: all 0.5s ease-in;
+transition: all 0.5s ease-in;}
+
+
+h1 { 
+text-align:center;}
+
+p{
+ padding-left: 30px;
+ padding-right: 30px;
+}
+
+header {
+border-radius : 50px;
 }
