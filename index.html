@@ -8,8 +8,9 @@
 		<meta name="description" content="Site de Bellot Minoteries - Recettes de cuisine et ventes de farines">
 		<title>Bellot Mitoneries</title>
 		<!-- CSS -->
-		<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css" >
 		<link rel="stylesheet" href="assets/css/main.css"/>
+		<link rel="stylesheet" href="assets/css/font-awesome.min.css">
 	</head>
 	<body>
 		<!-- HEADER -->
@@ -66,14 +67,35 @@
 							</table>
 						</div>
 						<footer>
-							Logos réseaux sociaux
+							<table id="reseaux-sociaux-recette">
+								<tr>
+									<td>Facebook</td><td>Twitter</td><td>Pinterest</td><td>Reddit</td>
+								</tr>
+							</table>
 						</footer>
 					</section>
 
 					<section>
-						<h3> ingrédients de la recette </h3>
+						<h3> Ingrédients de la recette </h3>
 						<div>
-							Sélection des ingrédients nécessaires
+							<table id="ingredients">
+								<tr>
+									<td>100g de sucre</td>
+									<td><input type="checkbox" id="ingredient1" value="100g-sucre"><label for="ingredient1">Acheter</label></td>
+								</tr>
+								<tr>
+									<td>200g de beurre</td>
+									<td><input type="checkbox" id="ingredient1" value="100g-sucre"><label for="ingredient1">Acheter</label></td>
+								</tr>
+								<tr>
+									<td>100g de farine</td>
+									<td><input type="checkbox" id="ingredient1" value="100g-sucre"><label for="ingredient1">Acheter</label></td>
+								</tr>
+								<tr>
+									<td>200g de miel</td>
+									<td><input type="checkbox" id="ingredient1" value="100g-sucre"><label for="ingredient1">Acheter</label></td>
+								</tr>
+							</table>
 						</div>
 					</section>
 

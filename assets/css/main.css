@@ -123,8 +123,18 @@ body
 	width: 250px;
 }
 
-#infos-recette td
+#infos-recette td, #reseaux-sociaux-recette td
 {
 	border: solid black 2px;
 	padding: 5px;
+}
+
+#ingredients
+{
+	margin: 20px;
+}
+
+#ingredients td
+{
+	padding : 5px;
 }
