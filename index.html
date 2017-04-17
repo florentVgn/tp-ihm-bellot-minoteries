@@ -4,22 +4,19 @@
 	<head>
 		<!-- BALISES META -->
 		<meta charset="UTF-8">
-		<meta name="author" content="" />
+		<meta name="author" content="Axelle Delomez, Rayan Barama, Florent Viogne" />
+		<meta name="description" content="Site de Bellot Minoteries - Recettes de cuisine et ventes de farines">
 		<title>Bellot Mitoneries</title>
 		<!-- CSS -->
 		<link href="assets/css/bootstrap.min.css" rel="stylesheet">
 		<link rel="stylesheet" href="assets/css/main.css"/>
-		<!-- JAVASCRIPT -->
-		<script src="assets/js/jquery.min.js"></script>
-		<script src="assets/js/bootstrap.min.js"></script>
-		
 	</head>
 	<body>
 		<!-- HEADER -->
 		<header id="header-page">
 			<div class="row">
 				<div class="text-center">
-					<img src="assets/images/logo.jpg"  alt="<logo>" class="imgcircle"> 
+					<img src="assets/images/logo.jpg"  alt="<logo>" class="imgcircle">
 				</div>
 			</div>
 			<!-- NAVBAR -->
@@ -27,7 +24,7 @@
 					<ul class="nav navbar-nav" id="navbar">
 						<li>
 							<a href="#">Accueil</a>
-						</li> 
+						</li>
 						<li>
 							<a href="#">Boutique</a>
 						</li>
@@ -44,25 +41,29 @@
 				</nav>
 			<!-- END NAVBAR -->
 		</header>
-		
+
 		<!-- END HEADER -->
 		<section class="col-md-9" id="recette">
 				<article>
-					
+
 					<header>
 						<h1>Makrout</h1>
 					</header>
-					
+
 					<div>
-						<img id="image-recette" src="assets/images/recette-makrout.jpg" alt="recette1">
+						<img id="image-recette" class="img-thumbnail"src="assets/images/recette-makrout.jpg" alt="recette1">
 					</div>
-		
+
 					<section>
 						<header>
 							Notes avec les étoiles
 						</header>
 						<div>
-							Informations sur la recette
+							<table id="infos-recette">
+								<tr>
+									<td>Temps de préparation</td><td>Temps de cuisson</td><td>Difficulté</td>
+								</tr>
+							</table>
 						</div>
 						<footer>
 							Logos réseaux sociaux
@@ -73,21 +74,21 @@
 						<h3> ingrédients de la recette </h3>
 						<div>
 							Sélection des ingrédients nécessaires
-						</div>						
+						</div>
 					</section>
-					
+
 					<section>
 						<h3> étapes à suivre </h3>
 						<div>
-							
+
 						</div>
 					</section>
 				</article>
-						
+
 		</section>
-		
+
 			<aside class="">
-			
+
 			<section>
                 <div class="container">
                     <table id="cart" class="table table-hover table-condensed">
@@ -118,7 +119,7 @@
                                 <td data-th="Subtotal" class="text-center">1.99</td>
                                 <td class="actions" data-th="">
                                     <button class="btn btn-info btn-sm"><i class="fa fa-refresh"></i></button>
-                                    <button class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i></button>								
+                                    <button class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i></button>
                                 </td>
                             </tr>
                         </tbody>
@@ -136,7 +137,7 @@
                     </table>
                 </div>
 			</section>
-			
+
 			<section>
 				<h3>Produits</h3>
 					<div id="produits" class="carousel slide" data-ride="carousel" data-interval="2000">
@@ -180,7 +181,7 @@
 			</section>
 		</aside>
 		<section id="commentaires">
-            
+
 			<header>
 				<h3>Commentaires</h3>
 			</header>
@@ -209,24 +210,24 @@
                         </div>
                         <div class="form-group">
                             <label class="control-label col-sm-2" for="password">Pseudonyme</label>
-                            <div class="col-sm-10">          
+                            <div class="col-sm-10">
                                 <input type="mail" class="form-control" id="pseudo" placeholder="">
                             </div>
                         </div>
                         <div class="form-group">
                             <label class="control-label col-sm-2" for="password">Commentaire</label>
-                            <div class="col-sm-10">          
+                            <div class="col-sm-10">
                                 <textarea class="form-control" rows="5" id="commentaire" placeholder=""></textarea>
                             </div>
                         </div>
-                        <div class="form-group">        
+                        <div class="form-group">
                             <div class="col-sm-offset-2 col-sm-10">
                                 <div class="checkbox">
                                     <label><input type="checkbox"> Remember me</label>
                                 </div>
                             </div>
                         </div>
-                        <div class="form-group">        
+                        <div class="form-group">
                             <div class="col-sm-offset-2 col-sm-10">
                                 <button type="submit" class="btn btn-default">Commenter</button>
                             </div>
@@ -237,10 +238,13 @@
                 </div>
             </div>
 		</section>
-		
+
 		<footer>
 			Pied de page
 		</footer>
-		
+
+		<!-- JAVASCRIPT -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/bootstrap.min.js"></script>
 	</body>
 </html>

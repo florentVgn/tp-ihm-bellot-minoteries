@@ -1,17 +1,17 @@
 section
-{	
+{
 	border : solid 1px black;
 	margin : 15px;
 }
 
 #recette
-{	
+{
 	float: left;
 	width : 75%;
 }
 
 .imgcircle
-{	
+{
 	border : solid 2px #E8C811;
 	border-radius : 360px;
 	margin : 10px;
@@ -19,7 +19,7 @@ section
 }
 
 #commentaires
-{	
+{
 	clear: both;
 }
 
@@ -30,7 +30,7 @@ aside
 
 
 h3
-{ 
+{
 	text-align:center;
 }
 
@@ -40,7 +40,7 @@ p
 	 padding-right: 30px;
 }
 
-header 
+header
 {
 	border-radius : 50px;
 }
@@ -93,14 +93,14 @@ body
 		width:36%;
 		margin:1.5em 0;
 	}
-	
+
 	.actions .btn-info{
 		float:left;
 	}
 	.actions .btn-danger{
 		float:right;
 	}
-	
+
 	table#cart thead { display: none; }
 	table#cart tbody td { display: block; padding: .6rem; min-width:320px;}
 	table#cart tbody tr td:first-child { background: #333; color: #fff; }
@@ -108,18 +108,23 @@ body
 		content: attr(data-th); font-weight: bold;
 		display: inline-block; width: 8rem;
 	}
-	
-	
-	
+
+
+
 	table#cart tfoot td{display:block; }
 	table#cart tfoot td .btn{display:block;}
-	
+
 }
 
 /* FIN PANIER */
 
 #image-recette
 {
-	width: 300px;
+	width: 250px;
 }
 
+#infos-recette td
+{
+	border: solid black 2px;
+	padding: 5px;
+}
