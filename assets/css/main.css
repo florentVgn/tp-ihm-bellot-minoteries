@@ -123,10 +123,41 @@ body
 	width: 250px;
 }
 
-#infos-recette td, #reseaux-sociaux-recette td
+#note-recette
 {
-	border: solid black 2px;
-	padding: 5px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+#note-recette td
+{
+	padding-right: 3px;
+}
+
+#infos-recette
+{
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+#infos-recette td
+{
+	padding-right: 5px;
+	text-align: center;
+}
+
+#reseaux-sociaux-recette
+{
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+#reseaux-sociaux-recette td
+{
+	padding-right: 8px;
+	width: auto;
+	text-align: center;
 }
 
 #ingredients
