@@ -1,25 +1,26 @@
 section
-{	border : solid 2px black;
+{	
+	border : solid 1px black;
 	margin : 15px;
-	
 }
 
 #recette
-{	float: left;
+{	
+	float: left;
 	width : 75%;
 }
 
 .imgcircle
-{	border : solid 2px #E8C811;
+{	
+	border : solid 2px #E8C811;
 	border-radius : 360px;
 	margin : 10px;
 	width : 250px;
-	
 }
 
-#commentaire
-{	margin-top:20%;
-
+#commentaires
+{	
+	clear: both;
 }
 
 aside
@@ -27,54 +28,98 @@ aside
 	margin-top : 34px;
 }
 
-.menu-list {
-width:100%;
-margin-left:0 !important;}
 
-.menu-list .menu-li { 
-margin:auto;
-width : 14.28%;
-text-align:center; }
-
-.menu-list .menu-li a:hover {
-background-color:#E8C811 !important; 
--webkit-transition: all 0.5s ease-in;
--moz-transition: all 0.5s ease-in;
--ms-transition: all 0.5s ease-in;
--o-transition: all 0.5s ease-in;
-transition: all 0.5s ease-in; }
-
-.sous-menu-list { 
-width:100%;
+h3
+{ 
+	text-align:center;
 }
 
-.sous-menu-list li {
-text-align:center;
-padding-top: 10px;
-padding-bottom: 10px;
-color: black;
-font-size: 1.5vmin; }
-
-.tiretDuBas { 
-border-bottom: 1px solid #000;}
-
-.sous-menu-list li:hover{
-background-color:#6ECDFF !important; 
--webkit-transition: all 0.5s ease-in;
--moz-transition: all 0.5s ease-in;
--ms-transition: all 0.5s ease-in;
--o-transition: all 0.5s ease-in;
-transition: all 0.5s ease-in;}
-
-
-h1 { 
-text-align:center;}
-
-p{
- padding-left: 30px;
- padding-right: 30px;
+p
+{
+	 padding-left: 30px;
+	 padding-right: 30px;
 }
 
-header {
-border-radius : 50px;
+header 
+{
+	border-radius : 50px;
 }
+
+body
+{
+	padding: 30px;
+}
+
+#navbar li:hover
+{
+	background-color: #E8C811;
+}
+
+#produits img
+{
+	padding: 10px;
+	background-color: transparent;
+}
+
+.carousel
+{
+	background: none;
+}
+
+#header-page
+{
+	background-image: url('../images/background-logo.jpg');
+}
+
+.user_name{
+    font-size:14px;
+    font-weight: bold;
+}
+.comments-list .media{
+    border-bottom: 1px dotted #ccc;
+    margin-bottom: 40px;
+}
+
+/* PANIER */
+.table>tbody>tr>td, .table>tfoot>tr>td{
+    vertical-align: middle;
+}
+@media screen and (max-width: 600px) {
+    table#cart tbody td .form-control{
+		width:20%;
+		display: inline !important;
+	}
+	.actions .btn{
+		width:36%;
+		margin:1.5em 0;
+	}
+	
+	.actions .btn-info{
+		float:left;
+	}
+	.actions .btn-danger{
+		float:right;
+	}
+	
+	table#cart thead { display: none; }
+	table#cart tbody td { display: block; padding: .6rem; min-width:320px;}
+	table#cart tbody tr td:first-child { background: #333; color: #fff; }
+	table#cart tbody td:before {
+		content: attr(data-th); font-weight: bold;
+		display: inline-block; width: 8rem;
+	}
+	
+	
+	
+	table#cart tfoot td{display:block; }
+	table#cart tfoot td .btn{display:block;}
+	
+}
+
+/* FIN PANIER */
+
+#image-recette
+{
+	width: 300px;
+}
+
