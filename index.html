@@ -1,320 +1,359 @@
-<!DOCTYPE html>
 
-<html lang="fr">
-	<head>
-		<!-- BALISES META -->
-		<meta charset="UTF-8">
-		<meta name="author" content="Axelle Delomez, Rayan Barama, Florent Viogne" />
-		<meta name="description" content="Site de Bellot Minoteries - Recettes de cuisine et ventes de farines">
-		<title>Bellot Mitoneries</title>
-		<!-- CSS -->
-		<link rel="stylesheet" href="assets/css/bootstrap.min.css" >
-		<link rel="stylesheet" href="assets/css/main.css"/>
-		<link rel="stylesheet" href="assets/css/font-awesome.min.css">
-	</head>
-	<body>
-		<!-- HEADER -->
-		<header id="header-page">
-			<div class="row">
-				<div class="text-center">
-					<img src="assets/images/logo.jpg"  alt="<logo>" class="imgcircle">
-				</div>
-			</div>
-			<!-- NAVBAR -->
-				<nav class="navbar navbar-default">
-					<ul class="nav navbar-nav" id="navbar">
-						<li>
-							<a href="#">Accueil</a>
-						</li>
-						<li>
-							<a href="#">Boutique</a>
-						</li>
-						<li>
-							<a href="#">Recettes</a>
-						</li>
-					</ul>
-					<form class="navbar-form navbar-right">
-							<div class="form-group">
-								<input type="text" class="form-control" placeholder="Recherche">
-							</div>
-							<button type="submit" class="btn btn-default">Submit</button>
-					</form>
-				</nav>
-			<!-- END NAVBAR -->
-		</header>
-
-		<!-- END HEADER -->
-		<section class="col-md-9" id="recette">
-				<article>
-
-					<header>
-						<h1>Makrout</h1>
-					</header>
-
-					<div>
-						<img id="image-recette" class="img-thumbnail"src="assets/images/recette-makrout.jpg" alt="recette1">
-					</div>
-
-					<section>
-						<div>
-							<table id="note-recette">
-								<tr>
-									<td>Note:</td>
-									<td><i class="fa fa-star fa-lg"></i></td>
-									<td><i class="fa fa-star fa-lg"></i></td>
-									<td><i class="fa fa-star fa-lg"></i></td>
-									<td><i class="fa fa-star fa-lg"></i></td>
-									<td><i class="fa fa-star-half-o fa-lg"></i></td>
-								</tr>
-							</table>
-						</div>
-						<div>
-							<table id="infos-recette">
-								<tr>
-									<td>Temps de préparation: 30 minutes</td>
-									<td>Temps de cuisson: 10 minutes</td>
-									<td>Pour 6 personnes
-										<i class="fa fa-male fa-lg"></i>
-										<i class="fa fa-male fa-lg"></i>
-										<i class="fa fa-male fa-lg"></i>
-										<i class="fa fa-male fa-lg"></i>
-										<i class="fa fa-male fa-lg"></i>
-										<i class="fa fa-male fa-lg"></i>
-									</td>
-									<td>Difficulté:
-										<i class="fa fa-puzzle-piece fa-lg"></i>
-										<i class="fa fa-puzzle-piece fa-lg"></i>
-										(Moyen)
-									</td>
-								</tr>
-							</table>
-						</div>
-						<footer>
-							<table id="reseaux-sociaux-recette">
-								<tr>
-									<td id="reseaux-sociaux-recette-1">Partagez sur les réseaux sociaux:</td>
-									<td><i class="fa fa-facebook fa-2x"></i></td>
-									<td><i class="fa fa-twitter fa-2x"></i></td>
-									<td><i class="fa fa-pinterest fa-2x"></i></td>
-									<td><i class="fa fa-reddit fa-2x"></i></td>
-								</tr>
-							</table>
-						</footer>
-					</section>
-
-					<section>
-						<h3> Ingrédients</h3>
-						<div>
-							<table id="ingredients">
-								<tr>
-									<td>500 g de semoule de blé (grain moyen)</td>
-									<td><input type="checkbox" id="ingredient1" value="100g-sucre"><label for="ingredient1">Acheter</label></td>
-								</tr>
-								<tr>
-									<td>125 g de beurre + 15 g</td>
-									<td><input type="checkbox" id="ingredient1" value="100g-sucre"><label for="ingredient1">Acheter</label></td>
-								</tr>
-								<tr>
-									<td>150 g de pâte de dattes (toute prête, boutiques arabes ou rayon produits du magreb)</td>
-									<td><input type="checkbox" id="ingredient1" value="100g-sucre"><label for="ingredient1">Acheter</label></td>
-								</tr>
-								<tr>
-									<td>1 cuillère à café de cannelle</td>
-									<td><input type="checkbox" id="ingredient1" value="100g-sucre"><label for="ingredient1">Acheter</label></td>
-								</tr>
-								<tr>
-									<td>1 pincée de sel</td>
-									<td></td>
-								</tr>
-								<tr>
-									<td>Huile de friture</td>
-									<td><input type="checkbox" id="ingredient1" value="100g-sucre"><label for="ingredient1">Acheter</label></td>
-								</tr>
-								<tr>
-									<td>Miel</td>
-									<td><input type="checkbox" id="ingredient1" value="100g-sucre"><label for="ingredient1">Acheter</label></td>
-								</tr>
-							</table>
-						</div>
-					</section>
-
-					<section>
-						<h3>Etapes à suivre</h3>
-						<div>
-							<ol>
-								<li>Mettre la semoule et le sel dans une jatte, puis mettre le beurre (125 g) en morceau et travailler.</li>
-								<li>Ajouter de l'eau tiéde (environ un verre) jusqu'à obtention d'une pâte facile à travailler. Faire des boudins avec.</li>
-								<li>Mettre dans un plat allant au micro ondes la pâte de dattes avec la cannelle et les 15 g de beurre restant et
-									chauffer une minute le tout pour ramollir cette pâte, former des longs boudins fins.</li>
-								<li>Creuser un boudin de semoule avec le doigt en faisant une "tranchée", mettre dedans un long boudin de pâte
-									de dattes et refermer avec les bords. On obtient un boudin fourré.</li>
-								<li>Répéter l'opération, puis couper en biais de sorte à avoir des losanges.</li>
-								<li>Les faire frire dans l'huile et une fois doré les tremper dans le miel tiède.</li>
-							</ol>
-						</div>
-					</section>
-				</article>
-
-		</section>
-
-			<aside class="">
-
-			<section>
-                <div class="container">
-                    <table id="cart" class="table table-hover table-condensed">
-                        <thead>
-                            <tr>
-                                <th style="width:50%">Product</th>
-                                <th style="width:10%">Price</th>
-                                <th style="width:8%">Quantity</th>
-                                <th style="width:22%" class="text-center">Subtotal</th>
-                                <th style="width:10%"></th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td data-th="Product">
-                                    <div class="row">
-                                        <div class="col-sm-2 hidden-xs"><img src="http://placehold.it/100x100" alt="..." class="img-responsive"/></div>
-                                        <div class="col-sm-10">
-                                            <h4 class="nomargin">Product 1</h4>
-                                            <p>Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet.</p>
-                                        </div>
+                <!DOCTYPE html>
+                
+                <html lang="fr">
+                    <head>
+                        <!-- BALISES META -->
+                        <meta charset="UTF-8">
+                        <meta name="author" content="Axelle Delomez, Rayan Barama, Florent Viogne" />
+                        <meta name="description" content="Site de Bellot Minoteries - Recettes de cuisine et ventes de farines">
+                        <title>Bellot Mitoneries</title>
+                        <!-- CSS -->
+                        <link rel="stylesheet" href="assets/css/bootstrap.min.css" >
+                        <link rel="stylesheet" href="assets/css/main.css"/>
+                        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+                    </head>
+                    <body>
+                        <!-- HEADER -->
+                        <header id="header-page">
+                            <div class="row">
+                                <div class="text-center">
+                                    <img src="assets/images/logo.jpg"  alt="<logo>" class="imgcircle">
+                                </div>
+                            </div>
+                            <!-- NAVBAR -->
+                                <nav class="navbar navbar-default">
+                                    <ul class="nav navbar-nav" id="navbar">
+                                        <li>
+                                            <a href="#">Accueil</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Boutique</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Recettes</a>
+                                        </li>
+                                    </ul>
+                                    <form class="navbar-form navbar-right">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" placeholder="Recherche">
+                                            </div>
+                                            <button type="submit" class="btn btn-default">Submit</button>
+                                    </form>
+                                </nav>
+                            <!-- END NAVBAR -->
+                        </header>
+                
+                        <!-- END HEADER -->
+                        <section class="col-md-9" id="recette">
+                                <article>
+                
+                                    <header>
+                                        <h1>Makrout</h1>
+                                    </header>
+                
+                                    <div>
+                                        <img id="image-recette" class="img-thumbnail"src="assets/images/recette-makrout.jpg" alt="recette1">
                                     </div>
-                                </td>
-                                <td data-th="Price">$1.99</td>
-                                <td data-th="Quantity">
-                                    <input type="number" class="form-control text-center" value="1">
-                                </td>
-                                <td data-th="Subtotal" class="text-center">1.99</td>
-                                <td class="actions" data-th="">
-                                    <button class="btn btn-info btn-sm"><i class="fa fa-refresh"></i></button>
-                                    <button class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i></button>
-                                </td>
-                            </tr>
-                        </tbody>
-                        <tfoot>
-                            <tr class="visible-xs">
-                                <td class="text-center"><strong>Total 1.99</strong></td>
-                            </tr>
-                            <tr>
-                                <td><a href="#" class="btn btn-warning"><i class="fa fa-angle-left"></i> Continue Shopping</a></td>
-                                <td colspan="2" class="hidden-xs"></td>
-                                <td class="hidden-xs text-center"><strong>Total $1.99</strong></td>
-                                <td><a href="#" class="btn btn-success btn-block">Checkout <i class="fa fa-angle-right"></i></a></td>
-                            </tr>
-                        </tfoot>
-                    </table>
-                </div>
-			</section>
-
-			<section>
-				<h3>Produits</h3>
-					<div id="produits" class="carousel slide" data-ride="carousel" data-interval="2000">
-						<!-- Indicators -->
-						<ol class="carousel-indicators">
-							<li data-target="#produits" data-slide-to="0" class="active"></li>
-							<li data-target="#produits" data-slide-to="1"></li>
-							<li data-target="#produits" data-slide-to="2"></li>
-							<li data-target="#produits" data-slide-to="3"></li>
-						 </ol>
-
-						<!-- Wrapper for slides -->
-						<div class="carousel-inner" role="listbox">
-							<div class="item active">
-								<img src="assets/images/content.jpg" alt="Chania">
-							</div>
-
-							<div class="item">
-								<img src="assets/images/tarte-fraises.jpg" alt="Chania">
-							</div>
-
-							<div class="item">
-								<img src="assets/images/tiramisu-1.jpg" alt="Flower">
-							</div>
-
-							<div class="item">
-								<img src="assets/images/banana-split.jpg" alt="Flower">
-							</div>
-					</div>
-
-					<!-- Left and right controls -->
-						<a class="left carousel-control" href="#produits" role="button" data-slide="prev">
-							<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-							<span class="sr-only">Previous</span>
-						</a>
-				  <a class="right carousel-control" href="#produits" role="button" data-slide="next">
-					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-					<span class="sr-only">Next</span>
-				  </a>
-					</div>
-			</section>
-		</aside>
-		<section id="commentaires">
-
-			<header>
-				<h3>Commentaires</h3>
-			</header>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                       <div class="comments-list">
-                           <div class="media">
-                                <p class="pull-right">5 days ago</p>
-                                <a class="media-left" href="#">
-                                    <img src="http://lorempixel.com/40/40/people/1/">
-                                </a>
-                                <div class="media-body">
-                                    <h4 class="media-heading user_name">Baltej Singh</h4>
-                                    Wow! this is really great.
-                                  <p><a href="">Like</a> - <a href="">Share</a></p>
+                
+                                    <section>
+                                        <div>
+                                            <table id="note-recette">
+                                                <tr>
+                                                    <td>Note:</td>
+                                                    <td><i class="fa fa-star fa-lg"></i></td>
+                                                    <td><i class="fa fa-star fa-lg"></i></td>
+                                                    <td><i class="fa fa-star fa-lg"></i></td>
+                                                    <td><i class="fa fa-star fa-lg"></i></td>
+                                                    <td><i class="fa fa-star-half-o fa-lg"></i></td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                        <div>
+                                            <table id="infos-recette">
+                                                <tr>
+                                                    <td>Temps de préparation: 30 minutes</td>
+                                                    <td>Temps de cuisson: 10 minutes</td>
+                                                    <td>Pour 6 personnes
+                                                        <i class="fa fa-male fa-lg"></i>
+                                                        <i class="fa fa-male fa-lg"></i>
+                                                        <i class="fa fa-male fa-lg"></i>
+                                                        <i class="fa fa-male fa-lg"></i>
+                                                        <i class="fa fa-male fa-lg"></i>
+                                                        <i class="fa fa-male fa-lg"></i>
+                                                    </td>
+                                                    <td>Difficulté:
+                                                        <i class="fa fa-puzzle-piece fa-lg"></i>
+                                                        <i class="fa fa-puzzle-piece fa-lg"></i>
+                                                        (Moyen)
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                        <footer>
+                                            <table id="reseaux-sociaux-recette">
+                                                <tr>
+                                                    <td id="reseaux-sociaux-recette-1">Partagez sur les réseaux sociaux:</td>
+                                                    <td><i class="fa fa-facebook fa-2x"></i></td>
+                                                    <td><i class="fa fa-twitter fa-2x"></i></td>
+                                                    <td><i class="fa fa-pinterest fa-2x"></i></td>
+                                                    <td><i class="fa fa-reddit fa-2x"></i></td>
+                                                </tr>
+                                            </table>
+                                        </footer>
+                                    </section>
+                
+                                    <section>
+                                        <h3> Ingrédients</h3>
+                                        <div>
+                                            <table id="ingredients">
+                                                <tr>
+                                                    <td><input type="checkbox" id="recette1" value="100g-sucre"><label for="ingredient1">Acheter</label></td>
+                                                    <td>500 g de semoule de blé (grain moyen)</td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                    <td><input type="checkbox" id="recette2" value="100g-sucre"><label for="ingredient1">Acheter</label></td>
+                                                    <td>125 g de beurre + 15 g</td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                    <td><input type="checkbox" id="recette3" value="100g-sucre"><label for="ingredient1">Acheter</label></td>
+                                                    <td>150 g de pâte de dattes (toute prête, boutiques arabes ou rayon produits du magreb)</td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                    <td><input type="checkbox" id="recette4" value="100g-sucre"><label for="ingredient1">Acheter</label></td>
+                                                    <td>1 cuillère à café de cannelle</td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                    <td><input type="checkbox" id="recette5" value="100g-sucre"><label for="ingredient1">Acheter</label></td>
+                                                    <td>1 pincée de sel</td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                    <td><input type="checkbox" id="recette6" value="100g-sucre"><label for="ingredient1">Acheter</label></td>
+                                                    <td>Huile de friture</td>
+                                                
+                                                </tr>
+                                                <tr>
+                                                    <td><input type="checkbox" id="recette7" value="100g-sucre"><label for="ingredient1">Acheter</label></td>
+                                                    <td>Miel</td>
+                                                    
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </section>
+                
+                                    <section>
+                                        <h3>Etapes à suivre</h3>
+                                        <form>
+                                            <p>
+                                                <input type="checkbox" id="ingredient1" value="100g-sucre">
+                                                    <label for="ingredient1">Fait</label> Mettre la semoule et le sel dans une jatte,
+                                                    puis mettre le beurre (125 g) en morceau et travailler.
+                                            </p>
+                                            <p>
+                                                <input type="checkbox" id="ingredient2" value="100g-sucre">
+                                                    <label for="ingredient1">Fait</label>Ajouter de l'eau tiéde (environ un verre) 
+                                                    jusqu'à obtention d'une pâte facile à travailler. Faire des boudins avec.
+                                            </p>
+                                            <p>
+                                                <input type="checkbox" id="ingredient3" value="100g-sucre">
+                                                    <label for="ingredient1">Fait</label>Mettre dans un plat allant au micro ondes 
+                                                    la pâte de dattes avec la cannelle et les 15 g de beurre restant et
+                                                    chauffer une minute le tout pour ramollir cette pâte, former des longs 
+                                                    boudins fins.                                             
+                                            </p>
+                                            <p>
+                                                <input type="checkbox" id="ingredient4" value="100g-sucre">
+                                                    <label for="ingredient1">Fait</label>Creuser un boudin de semoule avec le
+                                                    doigt en faisant une "tranchée", mettre dedans un long boudin de pâte
+                                                    de dattes et refermer avec les bords. On obtient un boudin fourré
+                                            </p>
+                                            <p>
+                                                <input type="checkbox" id="ingredient5" value="100g-sucre">
+                                                    <label for="ingredient1">Fait</label>Répéter l'opération, puis couper en 
+                                                    biais de sorte à avoir des losanges.
+                                            </p>
+                                            <p>
+                                                <input type="checkbox" id="ingredient6" value="100g-sucre">
+                                                    <label for="ingredient1">Fait</label>Les faire frire dans l'huile et une 
+                                                    fois doré les tremper dans le miel tiède.
+                                            </p>
+                                        </form>
+                                            
+                                        <div class="progressbar-container">
+                                            <div class="progressbar-bar"></div>
+                                            <div class="progressbar-label"></div>
+                                        </div>
+                                        <div class = "ready"></div>
+                                    </section>
+                                </article>
+                
+                        </section>
+                
+                            <aside class="">
+                
+                            <section>
+                                <div class="container">
+                                    <table id="cart" class="table table-hover table-condensed">
+                                        <thead>
+                                            <tr>
+                                                <th style="width:50%">Product</th>
+                                                <th style="width:10%">Price</th>
+                                                <th style="width:8%">Quantity</th>
+                                                <th style="width:22%" class="text-center">Subtotal</th>
+                                                <th style="width:10%"></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td data-th="Product">
+                                                    <div class="row">
+                                                        <div class="col-sm-2 hidden-xs"><img src="http://placehold.it/100x100" alt="..." class="img-responsive"/></div>
+                                                        <div class="col-sm-10">
+                                                            <h4 class="nomargin">Product 1</h4>
+                                                            <p>Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet.</p>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td data-th="Price">$1.99</td>
+                                                <td data-th="Quantity">
+                                                    <input type="number" class="form-control text-center" value="1">
+                                                </td>
+                                                <td data-th="Subtotal" class="text-center">1.99</td>
+                                                <td class="actions" data-th="">
+                                                    <button class="btn btn-info btn-sm"><i class="fa fa-refresh"></i></button>
+                                                    <button class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i></button>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                        <tfoot>
+                                            <tr class="visible-xs">
+                                                <td class="text-center"><strong>Total 1.99</strong></td>
+                                            </tr>
+                                            <tr>
+                                                <td><a href="#" class="btn btn-warning"><i class="fa fa-angle-left"></i> Continue Shopping</a></td>
+                                                <td colspan="2" class="hidden-xs"></td>
+                                                <td class="hidden-xs text-center"><strong>Total $1.99</strong></td>
+                                                <td><a href="#" class="btn btn-success btn-block">Checkout <i class="fa fa-angle-right"></i></a></td>
+                                            </tr>
+                                        </tfoot>
+                                    </table>
+                                </div>
+                            </section>
+                
+                            <section>
+                                <h3>Produits</h3>
+                                    <div id="produits" class="carousel slide" data-ride="carousel" data-interval="2000">
+                                        <!-- Indicators -->
+                                        <ol class="carousel-indicators">
+                                            <li data-target="#produits" data-slide-to="0" class="active"></li>
+                                            <li data-target="#produits" data-slide-to="1"></li>
+                                            <li data-target="#produits" data-slide-to="2"></li>
+                                            <li data-target="#produits" data-slide-to="3"></li>
+                                         </ol>
+                
+                                        <!-- Wrapper for slides -->
+                                        <div class="carousel-inner" role="listbox">
+                                            <div class="item active">
+                                                <img src="assets/images/content.jpg" alt="Chania">
+                                            </div>
+                
+                                            <div class="item">
+                                                <img src="assets/images/tarte-fraises.jpg" alt="Chania">
+                                            </div>
+                
+                                            <div class="item">
+                                                <img src="assets/images/tiramisu-1.jpg" alt="Flower">
+                                            </div>
+                
+                                            <div class="item">
+                                                <img src="assets/images/banana-split.jpg" alt="Flower">
+                                            </div>
+                                    </div>
+                
+                                    <!-- Left and right controls -->
+                                        <a class="left carousel-control" href="#produits" role="button" data-slide="prev">
+                                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                            <span class="sr-only">Previous</span>
+                                        </a>
+                                  <a class="right carousel-control" href="#produits" role="button" data-slide="next">
+                                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                  </a>
+                                    </div>
+                            </section>
+                        </aside>
+                        <section id="commentaires">
+                
+                            <header>
+                                <h3>Commentaires</h3>
+                            </header>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                       <div class="comments-list">
+                                           <div class="media">
+                                                <p class="pull-right">5 days ago</p>
+                                                <a class="media-left" href="#">
+                                                    <img src="http://lorempixel.com/40/40/people/1/">
+                                                </a>
+                                                <div class="media-body">
+                                                    <h4 class="media-heading user_name">Baltej Singh</h4>
+                                                    Wow! this is really great.
+                                                  <p><a href="">Like</a> - <a href="">Share</a></p>
+                                                </div>
+                                            </div>
+                                       </div>
+                                       <form class="form-horizontal">
+                                       <div class="form-group">
+                                            <label class="control-label col-sm-2" for="email">Email</label>
+                                            <div class="col-sm-10">
+                                                <input type="email" class="form-control" id="email" placeholder="">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="control-label col-sm-2" for="password">Pseudonyme</label>
+                                            <div class="col-sm-10">
+                                                <input type="mail" class="form-control" id="pseudo" placeholder="">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="control-label col-sm-2" for="password">Commentaire</label>
+                                            <div class="col-sm-10">
+                                                <textarea class="form-control" rows="5" id="commentaire" placeholder=""></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="col-sm-offset-2 col-sm-10">
+                                                <div class="checkbox">
+                                                    <label><input type="checkbox"> Remember me</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="col-sm-offset-2 col-sm-10">
+                                                <button type="submit" class="btn btn-default">Commenter</button>
+                                            </div>
+                                        </div>
+                                        </form>
+                                       </div>
+                                    </div>
                                 </div>
                             </div>
-                       </div>
-                       <form class="form-horizontal">
-                       <div class="form-group">
-                            <label class="control-label col-sm-2" for="email">Email</label>
-                            <div class="col-sm-10">
-                                <input type="email" class="form-control" id="email" placeholder="">
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label class="control-label col-sm-2" for="password">Pseudonyme</label>
-                            <div class="col-sm-10">
-                                <input type="mail" class="form-control" id="pseudo" placeholder="">
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label class="control-label col-sm-2" for="password">Commentaire</label>
-                            <div class="col-sm-10">
-                                <textarea class="form-control" rows="5" id="commentaire" placeholder=""></textarea>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <div class="col-sm-offset-2 col-sm-10">
-                                <div class="checkbox">
-                                    <label><input type="checkbox"> Remember me</label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <div class="col-sm-offset-2 col-sm-10">
-                                <button type="submit" class="btn btn-default">Commenter</button>
-                            </div>
-                        </div>
-                        </form>
-                       </div>
-                    </div>
-                </div>
-            </div>
-		</section>
-
-		<footer>
-			Pied de page
-		</footer>
-
-		<!-- JAVASCRIPT -->
-		<script src="assets/js/jquery.min.js"></script>
-		<script src="assets/js/bootstrap.min.js"></script>
-	</body>
-</html>
+                        </section>
+                
+                        <footer>
+                            Pied de page
+                        </footer>
+                
+                        <!-- JAVASCRIPT -->
+                        <script src="assets/js/jquery.min.js"></script>
+                        <script src="assets/js/bootstrap.min.js"></script>
+                        <script src="assets/js/main.js"></script>
+                    </body>
+                </html>
+            
