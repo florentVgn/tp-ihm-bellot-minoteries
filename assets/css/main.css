@@ -132,6 +132,8 @@ body
 #note-recette td
 {
 	padding-right: 3px;
+
+  
 }
 
 #infos-recette
@@ -152,7 +154,6 @@ body
 	margin-left: 10px;
 	margin-bottom: 10px;
 }
-
 #reseaux-sociaux-recette td
 {
 	padding-right: 8px;
@@ -169,6 +170,7 @@ body
 {
 	padding : 5px;
 }
+
 
 /*sources:https://www.creativejuiz.fr/blog/veille-technologique/html5-element-progress-avancement-tache*/
 
